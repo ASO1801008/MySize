@@ -8,11 +8,12 @@ import androidx.core.content.edit
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-
+    /*pushの練習コメント*/
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
 
     //再表示のたびに呼ばれるライフサイクルイベントのコールバックメソッド
     override fun onResume(){
